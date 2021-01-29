@@ -45,5 +45,8 @@ F. true, Boolean(2) yields true so true is true
 Conditionals
 17. "How are you?" is printed because the first conditional, (2 == true), is false because true is converted to a number, 1, and thus fails 2==1. else if(2) is true since 2 converts to true when undergoing boolean conversion, same as any non-zero value. Since we're in an else if branch, we will not run the last branch. Hence, "How are you?" is printed.
 
+Functions
+19. Returns array containing [6, 8, 10]. The function "modifyArray" takes in a callback function doSomething, which is used in the for loop. For each iteration, one item is read in from the front of the array. It is then passed to doSomething which then passes it to function x before returning and pushed onto the newArr. After the argument array is exhausted by the for loop, newArr is returned. 
 
- 
+
+21
