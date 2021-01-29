@@ -49,4 +49,4 @@ Functions
 19. Returns array containing [6, 8, 10]. The function "modifyArray" takes in a callback function doSomething, which is used in the for loop. For each iteration, one item is read in from the front of the array. It is then passed to doSomething which then passes it to function x before returning and pushed onto the newArr. After the argument array is exhausted by the for loop, newArr is returned. 
 
 
-21
+21. 1 4 3 2
