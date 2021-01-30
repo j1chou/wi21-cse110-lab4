@@ -13,14 +13,14 @@
 11. At line 13, 0 will be printed since finalPrice is never updated as it is declared as a const at the beginning of the function.
 12. The function will return an 3 item array populated by 0's since the variable finalPrice which gets pushed into the array discounted is declared as const and thus unalterable.
 
-DataTypes:
+### DataTypes: 
 13. A: student.name
     B: student["Grad Year]
     C: student.greeting()
     D: student["Favorite Teacher"].name
     E: student.courseLoad[1]
 
-Basic Operator & Type Conversion
+### Basic Operator & Type Conversion 
 14.  
 A. 32, since '3' is a string, and since the operation is +, 2 got treated as a string 
 B. 1, since the operation is -, '3' was treated as a number 
@@ -31,7 +31,8 @@ F. 0, since the operator is + and neither is a string, false and null were treat
 G. 3undefined, for the same reason as A.
 H. NaN, since the string is treated as a number here, undefined becomes NaN
 
-15. 
+15.
+
 A. true, string '2' becomes number 2
 B. false, string '2' is larger than string '1'
 C. true, value 2 is equal to value 2
@@ -39,13 +40,12 @@ D. false, int 2 is not string 2
 E. false, true is equivalent to 1, and 1 is not equal to 2
 F. true, Boolean(2) yields true so true is true
 
-16.
-== compares with type conversion, while === compares without type conversion
+16. == compares with type conversion, while === compares without type conversion
 
-Conditionals
+### Conditionals
 17. "How are you?" is printed because the first conditional, (2 == true), is false because true is converted to a number, 1, and thus fails 2==1. else if(2) is true since 2 converts to true when undergoing boolean conversion, same as any non-zero value. Since we're in an else if branch, we will not run the last branch. Hence, "How are you?" is printed.
 
-Functions
+### Functions
 19. Returns array containing [6, 8, 10]. The function "modifyArray" takes in a callback function doSomething, which is used in the for loop. For each iteration, one item is read in from the front of the array. It is then passed to doSomething which then passes it to function x before returning and pushed onto the newArr. After the argument array is exhausted by the for loop, newArr is returned. 
 
 
